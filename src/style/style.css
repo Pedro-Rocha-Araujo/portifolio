@@ -22,6 +22,10 @@ section{
 section p {
     font-size: clamp(1rem, 3vw, 1.1rem);
 }
+hr {
+    width: 94%;
+    margin: auto;
+}
 /* ===================== Fim das Configurações Gerais ===================== */
 
 
@@ -147,7 +151,18 @@ section.autodidata p{
 
 
 /* ===================== Seção Contato ===================== */
-
+section.contatos p{
+    margin: 1rem 0;
+}
+section.contatos div.icones{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+div.icones i {
+    color: #001542;
+}
 /* ===================== Fim da Seção COntato ===================== */
 
 
@@ -163,6 +178,12 @@ footer {
 /* =====================  Fim da Estilização do Footer ===================== */
 
 @media screen and (max-width: 780px) {
+    .cerebro-cima{
+        display: none;
+    }
+    .cerebro-baixo{
+        display: none;
+    }
     div.conteudo{
         flex-direction: column;
     }
