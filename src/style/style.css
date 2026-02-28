@@ -1,0 +1,202 @@
+/* https://color.adobe.com/pt/explore */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NO&display=swap');
+
+/* ===================== Configurações Gerais ===================== */
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+h2, h3{
+    font-family: montserrat;
+    font-size: 2.5rem;
+    color: #151F30;
+}
+
+p{
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #151F30;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: #151F30;
+    margin: 100px 0;
+}
+
+figure, section.contato{
+    margin: auto;
+    max-width: 80%;
+    
+}
+/* ===================== Fim das Configurações Gerais ===================== */
+
+/* ===================== Estilização do Header ===================== */
+header{
+    background-color: #151F30;
+    position: relative;
+    padding: 40px 0px;
+    color: #FF7A48;
+    margin-bottom: 25px;
+}
+
+.cerebro-cima, .cerebro-baixo{
+    position: absolute;
+}
+
+.cerebro-cima{
+    top: 7%;
+    right: 15%;
+}
+
+.cerebro-baixo{
+    bottom: 7%;
+    left: 15%;
+}
+
+header img.header-image{
+    width: 25%;
+}
+
+header h1{
+    font-family: "Playwrite NO", cursive;
+    font-size: 4.3em;
+}
+
+header p{
+    font-family: montserrat;
+    font-size: 30px;
+    color: #FF7A48;
+}
+/* ===================== Fim da Estilização do Header ===================== */
+
+/* ===================== Seção Perfil ===================== */
+img.foto-perfil{
+    width: 15%;
+    border-radius: 50%;
+    border: 7px solid #FF7A48;
+    margin: 1.5%;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+span.periodo{
+    color: #FF7A48;
+}
+/* ===================== Fim da Seção Perfil ===================== */
+
+/* ===================== Seção Habilidades ===================== */
+
+img.img-habilidades{
+    width: 18%;
+    margin-right: 4%;
+}
+
+figcaption.fcap-habilidades{
+    width: 30%;
+}
+
+figcaption.fcap-habilidades h3{
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 4%;
+}
+
+figcaption.fcap-habilidades p{
+    text-align: left;
+    line-height: 1.5;
+}
+
+figure.habilidades{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+/* ===================== Fim da Seção Habilidades ===================== */
+
+/* ===================== Seção Autodidata ===================== */
+figure.autodidata{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+figcaption.autodidata{
+    max-width: 30%;
+}
+
+h3.autodidata, p.autodidata{
+    text-align: left;
+}
+
+h3.autodidata{
+    text-transform: uppercase;
+    margin-bottom: 4%;
+}
+
+p.autodidata{
+    line-height: 1.5;
+}
+
+img.img-autodidata{
+    width: 18%;
+    border-radius: 30%;
+    margin-right: 4%;
+}
+/* ===================== Fim da Seção Autodidata ===================== */
+
+/* ===================== Seção Contato ===================== */
+section.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.contato{
+    width: 40%;
+}
+
+h2.contato{
+    text-transform: uppercase;
+    margin-bottom: 40px
+}
+
+p.contato{
+    line-height: 1.5;
+}
+
+a.contato img{
+    width: 20%;
+    margin-top: 40px;
+    
+}
+
+
+/* ===================== Fim da Seção COntato ===================== */
+
+/* ===================== Estilização do Footer ===================== */
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #151F30;
+    color: #FF7A48;
+    justify-content: center;
+    padding: 15px 0px;
+    margin-top: 50px;
+}
+
+footer p{
+    color: #FF7A48;
+    font-size: 1.5rem;
+}
+/* =====================  Fim da Estilização do Footer ===================== */
