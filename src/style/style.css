@@ -6,197 +6,170 @@
     margin: 0px;
     padding: 0px;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-h2, h3{
-    font-family: montserrat;
-    font-size: 2.5rem;
-    color: #151F30;
+h2{
+    font-size: clamp(2rem, 6vw, 2.8rem);
 }
-
-p{
-    font-family: montserrat;
-    font-weight: 600;
-    font-size: 1.5rem;
-    color: #151F30;
+section img{
+    width: 40px;
 }
-
-hr{
-    border: none;
-    height: 2px;
-    background-color: #151F30;
-    margin: 100px 0;
-}
-
-figure, section.contato{
+section{
+    width: 96%;
     margin: auto;
-    max-width: 80%;
-    
+    padding: 4rem 0;
+}
+section p {
+    font-size: clamp(1rem, 3vw, 1.1rem);
 }
 /* ===================== Fim das Configurações Gerais ===================== */
 
+
+
+
+
 /* ===================== Estilização do Header ===================== */
 header{
-    background-color: #151F30;
+    background-color: #001542;
+    color: #FFFFFF;
+    height: 68dvh;
+    padding: 4rem 0 4rem 0;
+}
+header div{
+    width: 100%;
+    height: 100%;
+    max-width: 1480px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    padding: 40px 0px;
-    color: #FF7A48;
-    margin-bottom: 25px;
 }
-
-.cerebro-cima, .cerebro-baixo{
-    position: absolute;
+h1{
+    font-family: "Playwrite NO";
+    font-size: clamp(1.8rem, 8vw, 3.6rem);
 }
-
-.cerebro-cima{
-    top: 7%;
-    right: 15%;
-}
-
-.cerebro-baixo{
-    bottom: 7%;
-    left: 15%;
-}
-
-header img.header-image{
-    width: 25%;
-}
-
-header h1{
-    font-family: "Playwrite NO", cursive;
-    font-size: 4.3em;
-}
-
 header p{
-    font-family: montserrat;
-    font-size: 30px;
-    color: #FF7A48;
+    font-size: clamp(1rem, 4vw, 1.6rem);
+}
+.cerebro-cima{
+    position: absolute;
+    top: 6rem;
+    right: 1rem;
+}
+.cerebro-baixo{
+    position: absolute;
+    bottom: 6rem;
+    left: 1rem;
+}
+img.header{
+    width: 80%;
+    max-width: 480px;
+    margin: 2rem auto 0 auto;
 }
 /* ===================== Fim da Estilização do Header ===================== */
 
+
+
+
 /* ===================== Seção Perfil ===================== */
-img.foto-perfil{
-    width: 15%;
+section.perfil{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+section.perfil img{
+    width: 90%;
+    max-width: 200px;
     border-radius: 50%;
-    border: 7px solid #FF7A48;
-    margin: 1.5%;
+    border: 6px solid #FFB30D;
+    outline: 6px solid #001542;
 }
-
-h2{
-    text-transform: uppercase;
-}
-
-span.periodo{
-    color: #FF7A48;
+section.perfil p{
+    margin-top: 0.4rem;
 }
 /* ===================== Fim da Seção Perfil ===================== */
 
+
+
+
+
 /* ===================== Seção Habilidades ===================== */
-
-img.img-habilidades{
-    width: 18%;
-    margin-right: 4%;
+section.habilidades img{
+    width: 100%;
+    max-width: 240px;
 }
-
-figcaption.fcap-habilidades{
-    width: 30%;
-}
-
-figcaption.fcap-habilidades h3{
-    text-align: left;
-    text-transform: uppercase;
-    margin-bottom: 4%;
-}
-
-figcaption.fcap-habilidades p{
-    text-align: left;
-    line-height: 1.5;
-}
-
-figure.habilidades{
+div.conteudo{
+    margin-top: 1.6rem;
     display: flex;
-    flex-direction: row-reverse;
+    gap: 2rem;
     justify-content: center;
     align-items: center;
-    padding: 20px 0;
+}
+div.texto{
+    max-width: 300px;
+}
+section.habilidades p{
+    text-align: left;
 }
 /* ===================== Fim da Seção Habilidades ===================== */
 
+
+
+
+
 /* ===================== Seção Autodidata ===================== */
-figure.autodidata{
+section.autodidata img{
+    width: 100%;
+    max-width: 280px;
+    border-radius: 3rem;
+}
+div.conteudo{
+    margin-top: 1.6rem;
     display: flex;
-    align-items: center;
+    flex-direction: row-reverse;
+    gap: 2rem;
     justify-content: center;
+    align-items: center;
 }
-
-figcaption.autodidata{
-    max-width: 30%;
+div.texto{
+    max-width: 300px;
 }
-
-h3.autodidata, p.autodidata{
+section.autodidata p{
     text-align: left;
-}
-
-h3.autodidata{
-    text-transform: uppercase;
-    margin-bottom: 4%;
-}
-
-p.autodidata{
-    line-height: 1.5;
-}
-
-img.img-autodidata{
-    width: 18%;
-    border-radius: 30%;
-    margin-right: 4%;
 }
 /* ===================== Fim da Seção Autodidata ===================== */
 
+
+
+
+
 /* ===================== Seção Contato ===================== */
-section.contato{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-div.contato{
-    width: 40%;
-}
-
-h2.contato{
-    text-transform: uppercase;
-    margin-bottom: 40px
-}
-
-p.contato{
-    line-height: 1.5;
-}
-
-a.contato img{
-    width: 20%;
-    margin-top: 40px;
-    
-}
-
 
 /* ===================== Fim da Seção COntato ===================== */
 
-/* ===================== Estilização do Footer ===================== */
-footer{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    background-color: #151F30;
-    color: #FF7A48;
-    justify-content: center;
-    padding: 15px 0px;
-    margin-top: 50px;
-}
 
-footer p{
-    color: #FF7A48;
-    font-size: 1.5rem;
+
+
+
+/* ===================== Estilização do Footer ===================== */
+footer {
+    background-color: #001542;
+    color: #fff;
+    padding: 1rem 0;
 }
 /* =====================  Fim da Estilização do Footer ===================== */
+
+@media screen and (max-width: 780px) {
+    div.conteudo{
+        flex-direction: column;
+    }
+    div.conteudo div.texto{
+        max-width: 100%;
+    }
+    div.texto p{
+        text-align: center;
+    }
+}
