@@ -9,10 +9,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h2{
-    font-size: clamp(2rem, 6vw, 2.8rem);
+    font-size: clamp(2rem, 6vw, 2.9rem);
 }
-section img{
-    width: 40px;
+h3{
+    font-size: clamp(1.4rem, 4vw, 1.8rem);
+    margin-bottom: 0.4rem;
 }
 section{
     width: 96%;
@@ -37,7 +38,7 @@ header{
     background-color: #001542;
     color: #FFFFFF;
     height: 68dvh;
-    padding: 4rem 0 4rem 0;
+    padding: 4rem 0 2rem 0;
 }
 header div{
     width: 100%;
@@ -52,7 +53,7 @@ header div{
 }
 h1{
     font-family: "Playwrite NO";
-    font-size: clamp(1.8rem, 8vw, 3.6rem);
+    font-size: clamp(1.8rem, 8vw, 4rem);
 }
 header p{
     font-size: clamp(1rem, 4vw, 1.6rem);
@@ -162,6 +163,35 @@ section.contatos div.icones{
 }
 div.icones i {
     color: #001542;
+}
+/* ===================== Fim da Seção COntato ===================== */
+
+
+
+
+
+/* ===================== Seção Contato ===================== */
+section.projetos{
+}
+section.projetos h2{
+ margin-bottom: 1.8rem;
+}
+div.projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+div.projeto{
+    width: 100%;
+    max-width: 480px;
+}
+div.projetos img{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.634);
+}
+div.projeto img:hover{
+    transform: scale(1.02);
 }
 /* ===================== Fim da Seção COntato ===================== */
 
