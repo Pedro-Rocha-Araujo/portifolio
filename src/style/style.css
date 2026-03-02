@@ -114,6 +114,7 @@ div.conteudo{
     align-items: center;
 }
 div.texto{
+    text-indent: 1.6rem;
     width: 98%;
     max-width: 380px;
 }
@@ -185,6 +186,7 @@ div.projeto{
 div.projetos img{
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.634);
+    transition: transform, 0.24s;
 }
 div.projeto img:hover{
     transform: scale(1.02);
@@ -202,14 +204,15 @@ footer {
     padding: 1rem 0;
 }
 /* =====================  Fim da Estilização do Footer ===================== */
-
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1080px){
     .cerebro-cima{
         display: none;
     }
     .cerebro-baixo{
         display: none;
     }
+}
+@media screen and (max-width: 780px) {
     div.conteudo{
         flex-direction: column;
     }
