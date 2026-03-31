@@ -17,6 +17,7 @@ h3{
 }
 section{
     width: 96%;
+    max-width: 1920px;
     margin: auto;
     padding: 4rem 0;
 }
@@ -36,9 +37,7 @@ hr {
 /* ===================== Estilização do Header ===================== */
 header{
     background-color: #001542;
-    color: #FFFFFF;
-
-   
+    color: #FFFFFF;  
 }
 header div{
     width: 100%;
