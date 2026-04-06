@@ -6,7 +6,7 @@
     margin: 0px;
     padding: 0px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h2{
     font-size: clamp(2rem, 6vw, 2.9rem);
@@ -93,6 +93,10 @@ section.perfil img{
 }
 section.perfil p{
     margin-top: 0.4rem;
+}
+span {
+    color: #ff6e0d;
+    font-weight: bold;
 }
 /* ===================== Fim da Seção Perfil ===================== */
 
