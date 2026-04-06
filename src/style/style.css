@@ -165,6 +165,10 @@ section.contatos div.icones{
 }
 div.icones i {
     color: #001542;
+    transition: all 0.3s;
+}
+div.icones i:hover {
+    color: #FFB30D ;
 }
 /* ===================== Fim da Seção COntato ===================== */
 
@@ -189,10 +193,10 @@ div.projeto{
 div.projetos img{
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.634);
-    transition: transform, 0.24s;
+    transition: all, 0.2s;
 }
 div.projeto img:hover{
-    transform: scale(1.02);
+    transform: scale(1.01);
 }
 /* ===================== Fim da Seção COntato ===================== */
 
