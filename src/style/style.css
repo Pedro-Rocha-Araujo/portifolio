@@ -184,7 +184,7 @@ div.projetos{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 1rem;
 }
 div.projeto{
     width: 100%;
