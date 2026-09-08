@@ -54,9 +54,6 @@ h1{
     font-family: "Playwrite NO";
     font-size: clamp(1.8rem, 8vw, 4rem);
 }
-header p{
-    font-size: clamp(1rem, 4vw, 1.6rem);
-}
 .cerebro-cima{
     position: absolute;
     top: 6rem;
@@ -126,7 +123,7 @@ div.texto-maior {
     max-width: 680px;
 }
 section.habilidades p{
-    text-align: left;
+    text-align: justify;
 }
 /* ===================== Fim da Seção Habilidades ===================== */
 
@@ -149,7 +146,7 @@ div.conteudo{
     align-items: center;
 }
 section.autodidata p{
-    text-align: left;
+    text-align: justify;
 }
 /* ===================== Fim da Seção Autodidata ===================== */
 
