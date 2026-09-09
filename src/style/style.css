@@ -11,7 +11,7 @@
 }
 h1{
     font-family: "Caveat", cursive;
-    font-size: clamp(1.8rem, 14vw, 5rem);
+    font-size: clamp(1.8rem, 14vw, 5.5rem);
 }
 h2{
     font-size: clamp(2rem, 10vw, 3rem);
@@ -46,7 +46,7 @@ header{
 }
 header div{
     width: 100%;
-    min-height: 86dvh;
+    min-height: 90dvh;
     max-width: 1480px;
     margin: auto;
     display: flex;
@@ -68,7 +68,7 @@ header div{
 }
 img.header{
     width: 70%;
-    max-width: 480px;
+    max-width: 450px;
     margin: 2rem auto 0 auto;
 }
 /* ===================== Fim da Estilização do Header ===================== */
