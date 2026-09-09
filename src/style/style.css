@@ -1,5 +1,6 @@
 /* https://color.adobe.com/pt/explore */
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+NO&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
 /* ===================== Configurações Gerais ===================== */
 *{
@@ -8,11 +9,15 @@
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+h1{
+    font-family: "Caveat", cursive;
+    font-size: clamp(1.8rem, 14vw, 5rem);
+}
 h2{
-    font-size: clamp(2rem, 8vw, 3rem);
+    font-size: clamp(2rem, 10vw, 3rem);
 }
 h3{
-    font-size: clamp(1.4rem, 6vw, 2rem);
+    font-size: clamp(1.4rem, 8vw, 2rem);
     margin-bottom: 0.4rem;
 }
 section{
@@ -25,7 +30,7 @@ section p {
     font-size: clamp(1rem, 4vw, 1.1rem);
 }
 hr {
-    width: 94%;
+    width: 93%;
     margin: auto;
 }
 /* ===================== Fim das Configurações Gerais ===================== */
@@ -50,10 +55,7 @@ header div{
     align-items: center;
     position: relative;
 }
-h1{
-    font-family: "Playwrite NO";
-    font-size: clamp(1.8rem, 8vw, 4rem);
-}
+
 .cerebro-cima{
     position: absolute;
     top: 6rem;
@@ -65,7 +67,7 @@ h1{
     left: 1rem;
 }
 img.header{
-    width: 80%;
+    width: 70%;
     max-width: 480px;
     margin: 2rem auto 0 auto;
 }
@@ -116,7 +118,7 @@ div.conteudo{
 div.texto{
     text-indent: 1.6rem;
     width: 98%;
-    max-width: 380px;
+    max-width: 300px;
 }
 div.texto-maior {
     width: 98%;
@@ -205,8 +207,14 @@ div.icones i:hover {
 
 
 /* ===================== Seção Contato ===================== */
-section.projetos h2{
- margin-bottom: 1.8rem;
+section.projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section.projetos h2 {
+    margin-bottom: 1.5rem;
 }
 div.projetos{
     display: flex;
