@@ -1,0 +1,100 @@
+/* https://color.adobe.com/pt/explore */
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NO&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: "Caveat", cursive;
+    font-size: clamp(1.8rem, 14vw, 6rem);
+}
+
+h2{
+    font-size: clamp(2rem, 10vw, 3rem);
+}
+
+h3{
+    font-size: clamp(1.4rem, 8vw, 2rem);
+    margin-bottom: 0.4rem;
+}
+
+section{
+    width: 96%;
+    max-width: 1920px;
+    margin: auto;
+    padding: 4rem 0;
+}
+
+section.habilidades img{
+    width: 100%;
+    max-width: 240px;
+}
+div.conteudo{
+    margin-top: 1.6rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+div.texto{
+    text-indent: 1.6rem;
+    width: 98%;
+    max-width: 300px;
+}
+div.texto-maior {
+    width: 98%;
+    max-width: 680px;
+}
+section.habilidades p{
+    text-align: justify;
+}
+
+section p {
+    font-size: clamp(1rem, 4vw, 1.1rem);
+}
+
+hr {
+    width: 93%;
+    margin: auto;
+}
+
+footer {
+    background-color: #001542;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+@media screen and (max-width: 1080px){
+    .cerebro-cima{
+        display: none;
+    }
+    .cerebro-baixo{
+        display: none;
+    }
+    div.tecnologias {
+        grid-template-columns: 1fr;
+    }
+    div.categorias {
+        margin: 1rem 0;
+    }
+}
+@media screen and (max-width: 780px) {
+    div.conteudo{
+        flex-direction: column;
+    }
+    div.conteudo div.texto{
+        max-width: 100%;
+    }
+    div.texto p{
+        text-align: center;
+    }
+    section.tecnologias img {
+    max-width: 80px;
+}
+}

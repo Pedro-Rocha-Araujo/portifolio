@@ -1,0 +1,16 @@
+section.contatos p{
+    margin: 1rem 0;
+}
+section.contatos div.icones{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+div.icones i {
+    color: #001542;
+    transition: all 0.3s;
+}
+div.icones i:hover {
+    color: #FFB30D ;
+}

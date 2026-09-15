@@ -1,0 +1,28 @@
+section.projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section.projetos h2 {
+    margin-bottom: 1.5rem;
+}
+div.projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+div.projeto{
+    width: 100%;
+    max-width: 480px;
+}
+div.projetos img{
+    width: 100%;
+    aspect-ratio: 16/9;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    transition: all 0.2s;
+}    
+div.projeto img:hover{
+    transform: scale(1.007);
+}
