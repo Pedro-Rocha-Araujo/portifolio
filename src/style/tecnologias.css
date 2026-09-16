@@ -1,6 +1,6 @@
 section.tecnologias img {
     width: 100%;
-    max-width: 120px;
+    max-width: 100px;
     aspect-ratio: 1/1;
     object-fit: cover;
     margin: 0.4rem;
