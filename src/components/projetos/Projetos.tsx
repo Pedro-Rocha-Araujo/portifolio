@@ -8,7 +8,7 @@ export default function Projetos() {
 			<div className="projetos">
 				{projetos.map((projeto)=> {
 					return (
-						<div className="projeto">
+						<div key={projeto.name} className="projeto">
 							<h3><i className={projeto.icon}></i> Clínica</h3>
 							<a target="_blank" href={projeto.href}>                        
 								<img 

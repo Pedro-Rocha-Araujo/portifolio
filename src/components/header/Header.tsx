@@ -7,18 +7,18 @@ export default function Header() {
         <div>
             <img 
               className="cerebro-cima" 
-              src={`./${basePath}portifolio/cerebro.png `}
+              src={`${basePath}/cerebro.png `}
               alt="Imagem referente a um cérebro cartoon" 
             />
             <h1>Pedro Rocha Araujo</h1>
             <img 
               className="header" 
-              src={`./${basePath}portifolio/header-image.png`} 
+              src={`${basePath}/header-image.png`} 
               alt="Imagem de duas pessoas se divertindo no espaço" 
             />
             <img 
               className="cerebro-baixo" 
-              src={`./${basePath}portifolio/cerebro.png`} 
+              src={`${basePath}/cerebro.png`} 
               alt="Imagem referente a um cérebro cartoon" 
             />    
         </div>

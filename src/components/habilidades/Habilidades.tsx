@@ -7,7 +7,7 @@ export default function Habilidades() {
         <h2><i className="fa-solid fa-palette"></i> Processo de criação</h2>
         <div className="conteudo">
             <img 
-              src={`./${basePath}portifolio/programacao.png `}
+              src={`${basePath}/programacao.png `}
               alt="imagem cartoon de uma pessoa programando" 
             />
             <div className="texto">
