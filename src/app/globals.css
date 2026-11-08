@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: "Montserrat", Arial, sans-serif;
+}
+
+h1{
+    font-family: "Caveat", cursive;
+    font-size: clamp(1.8rem, 14vw, 6rem);
+}
+
+h2{
+    font-size: clamp(2rem, 8vw, 3rem);
+}
+
+h3{
+    font-size: clamp(1.4rem, 8vw, 2rem);
+    margin-bottom: 0.4rem;
+}
+
+section{
+    width: 96%;
+    max-width: 1920px;
+    margin: auto;
+    padding: 4rem 0;
+}
+
+section p {
+    font-size: clamp(1rem, 4vw, 1.1rem);
+    line-height: 140%;
+}
+
+hr {
+    border: 1px dashed #1c1c1c71;
+    width: 93%;
+    margin: auto;
+}

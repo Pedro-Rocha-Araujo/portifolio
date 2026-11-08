@@ -21,3 +21,18 @@ section.tecnologias h2 {
 div.tecnologias h3 {
     margin-bottom: 0.5rem;
 }
+
+
+@media screen and (max-width: 1080px){
+  div.tecnologias {
+    grid-template-columns: 1fr;
+  }
+  div.categorias {
+    margin: 1rem 0;
+  }
+}
+@media screen and (max-width: 780px) {
+  section.tecnologias img {
+    max-width: 80px;
+  }
+}

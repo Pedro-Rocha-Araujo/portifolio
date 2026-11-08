@@ -29,3 +29,12 @@ img.header{
     max-width: 450px;
     margin: 2rem auto 0 auto;
 }
+
+@media screen and (max-width: 1080px){
+    .cerebro-cima{
+        display: none;
+    }
+    .cerebro-baixo{
+        display: none;
+    }
+}
