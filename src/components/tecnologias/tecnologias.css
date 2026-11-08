@@ -31,6 +31,8 @@ div.tecnologias h3 {
     margin: 1rem 0;
   }
 }
+
+
 @media screen and (max-width: 780px) {
   section.tecnologias img {
     max-width: 80px;
