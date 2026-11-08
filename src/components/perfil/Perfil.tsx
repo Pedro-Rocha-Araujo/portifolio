@@ -1,3 +1,4 @@
+import { basePath } from "@/baseUrl"
 import "./perfil.css"
 
 export default function Perfil() {
@@ -5,7 +6,7 @@ export default function Perfil() {
     <section className="perfil">
         <h2><i className="fa-solid fa-lightbulb"></i> Olá!</h2>
         <img 
-          src="./portifolio/foto-perfil.png" 
+          src={`./${basePath}portifolio/foto-perfil.png`} 
           alt="Minha foto de perfil" 
         />
         <div className="texto-maior">

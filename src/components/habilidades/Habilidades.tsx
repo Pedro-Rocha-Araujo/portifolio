@@ -1,3 +1,4 @@
+import { basePath } from "@/baseUrl"
 import "./habilidades.css"
 
 export default function Habilidades() {
@@ -6,7 +7,7 @@ export default function Habilidades() {
         <h2><i className="fa-solid fa-palette"></i> Processo de criação</h2>
         <div className="conteudo">
             <img 
-              src="./portifolio/programacao.png" 
+              src={`./${basePath}portifolio/programacao.png `}
               alt="imagem cartoon de uma pessoa programando" 
             />
             <div className="texto">

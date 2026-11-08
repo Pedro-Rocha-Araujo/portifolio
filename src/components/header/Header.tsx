@@ -1,3 +1,4 @@
+import { basePath } from "@/baseUrl"
 import "./header.css"
 
 export default function Header() {
@@ -6,18 +7,18 @@ export default function Header() {
         <div>
             <img 
               className="cerebro-cima" 
-              src="./portifolio/cerebro.png" 
+              src={`./${basePath}portifolio/cerebro.png `}
               alt="Imagem referente a um cérebro cartoon" 
             />
             <h1>Pedro Rocha Araujo</h1>
             <img 
               className="header" 
-              src="./portifolio/header-image.png" 
+              src={`./${basePath}portifolio/header-image.png`} 
               alt="Imagem de duas pessoas se divertindo no espaço" 
             />
             <img 
               className="cerebro-baixo" 
-              src="./portifolio/cerebro.png" 
+              src={`./${basePath}portifolio/cerebro.png`} 
               alt="Imagem referente a um cérebro cartoon" 
             />    
         </div>
