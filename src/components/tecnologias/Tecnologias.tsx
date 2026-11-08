@@ -34,11 +34,11 @@ export default function Tecnologias() {
         <div className="categorias" >
             <h3><i className="fa-solid fa-database"></i> Data-base</h3>
             <img 
-              src={`./portifolio/tecnologias/mysql.png`} 
+              src={`${basePath}/tecnologias/mysql.png`} 
               alt="Logo do MySQL" 
             />
             <img 
-              src={`./portifolio/tecnologias/mongo.png`} 
+              src={`${basePath}/tecnologias/mongo.png`} 
               alt="Logo do MongoDb" 
             />
         </div>
