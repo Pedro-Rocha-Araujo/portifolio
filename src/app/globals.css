@@ -8,8 +8,11 @@
     font-family: "Montserrat", Arial, sans-serif;
 }
 
-h1{
+header h1 {
     font-family: "Caveat", cursive;
+}
+
+h1{
     font-size: clamp(1.8rem, 14vw, 6rem);
 }
 

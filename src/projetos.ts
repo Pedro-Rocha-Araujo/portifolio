@@ -1,5 +1,13 @@
 import { basePath } from "./baseUrl"
 
+export interface ProjetoInterface {
+  name: string,
+  icon: string,
+  href: string,
+  src: string,
+  alt: string
+}
+
 export const projetos = [
   {
     "name":"Clínica",

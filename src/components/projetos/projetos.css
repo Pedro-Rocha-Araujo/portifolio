@@ -26,4 +26,5 @@ div.projetos img{
 }    
 div.projeto img:hover{
     transform: scale(1.007);
+    cursor: pointer;
 }

@@ -1,0 +1,57 @@
+div.background{
+  background-color: #1c1c1cc2;
+  width: 100%;
+  min-height: 100dvh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+div.card {
+  background-color: #fff;
+  width: 94%;
+  max-width: 768px;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+div.infos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.infos a {
+  color: #000;
+  font-size: clamp(1.8rem, 6vw, 2.5rem);
+}
+
+div.infos a:hover {
+  cursor: pointer;
+}
+
+div.card h1 {
+  font-size: clamp(1.8rem, 6vw, 2.5rem);
+  text-align: left;
+}
+
+div.card img {
+  width: 100%;
+  border: 1px solid #696969;
+}
+
+div.card button.red {
+  font-size: clamp(0.8rem, 2vw, 1.1rem);
+  padding: 0.8rem 0;
+  border: none;
+  color: #fff;
+  background-color: #f33;
+  border-radius:  0.5rem;
+  cursor: pointer;
+}
