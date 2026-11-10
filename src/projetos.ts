@@ -27,7 +27,7 @@ export const projetos = [
     "src":`${basePath}/projetos/projeto-barber.png`,
     "alt":"Link para o projeto barbearia desenvolvido em MongoDb",
     "stack": "React, Node, Express, MongoDB",
-    "descricao": "Sistema Web Full-stack que atende os requisitos para o agendamento e gerenciamento de barbearias. A plataforma oferece uma interface responsiva com controle de sessão e níveis de acesso distintos para barbeiros e clientes, otimizando assim o fluxo de atendimento e a organização de horários."
+    "descricao": "Sistema Web Full-stack desenvolvido para atender os requisitos de agendamento e gerenciamento de barbearias. A plataforma oferece uma interface responsiva com controle de sessão e níveis de acesso distintos para barbeiros e clientes, otimizando assim o fluxo de atendimento e a organização de horários."
   },
   {
     "name":"Imobiliária",
@@ -36,7 +36,7 @@ export const projetos = [
     "src":`${basePath}/projetos/projeto-imobiliaria.png`,
     "alt":"Imagem do projeto Desenvolvido para imobiliária, feito em React, Node e MongoDb",
     "stack": "React, Node, Express, MongoDB",
-    "descricao": "Plataforma Web Full-stack projetada para facilitar o anúncio e negociação de imóveis. O projeto possui uma interface mobile-first e recursos de segurança como autenticação e criptografia, além de integrar um canal de comunicação entre anunciantes e compradores em potencial."
+    "descricao": "Plataforma Web Full-stack projetada para facilitar o anúncio e a negociação de imóveis. O projeto possui uma interface mobile-first e recursos de segurança como autenticação e criptografia, além de integrar um canal de comunicação entre anunciantes e compradores em potencial."
   },
   {
     "name":"Finanças",
@@ -45,7 +45,7 @@ export const projetos = [
     "src":`${basePath}/projetos/projeto-financas.png`,
     "alt":"Link para o projeto finanças",
     "stack": "React, FireBase",
-    "descricao": "Projeto Front-end desenvolvido com abordagem Mobile-first para simplificar a gestão financeira pessoal, permitindo o registro ágil de entradas e saídas, oferecendo ao usuário um acompanhamento dinâmico e visual do seu balanço patrimonial."
+    "descricao": "Projeto Front-end desenvolvido com abordagem Mobile-first para simplificar a gestão financeira pessoal. Permite o registro ágil de entradas e saídas, oferecendo ao usuário um acompanhamento dinâmico e visual do seu balanço patrimonial."
   },
   {
     "name":"Restaurante",
@@ -54,7 +54,7 @@ export const projetos = [
     "src":`${basePath}/projetos/projeto-restaurante.png`,
     "alt":"Link para o projeto restaurante",
     "stack": "React, Node, Express, MongoDB",
-    "descricao": "Sistema Web Full-stack criado para agilizar a operação de restaurantes. O projeto gira em torno, principalmente do gerenciamento de cardápios e pedidos por meio de uma interface intuitiva e responsiva, priorizando a facilidade e agilidade no atendimento."
+    "descricao": "Sistema Web Full-stack criado para agilizar a operação de restaurantes. O projeto gira em torno principalmente do gerenciamento de cardápios e pedidos por meio de uma interface intuitiva e responsiva, priorizando a facilidade e agilidade no atendimento."
   },
   {
     "name":"Tech-Fix",
@@ -63,6 +63,6 @@ export const projetos = [
     "src":`${basePath}/projetos/landing-page-tech-fix.png`,
     "alt":"Link para acessar o projeto de landing page desenvolvido para a empresa Tech-fix.",
     "stack": "Figma, Next",
-    "descricao": "Landing page desenvolvida para a empresa Tech-fix. Inicialmente, o projeto tve um protótipo criado no Figma com foco em conversão e responsividade. A página foi estruturada para apresentar os serviços da empresa de forma clara e atrair clientes."
+    "descricao": "Landing page desenvolvida para a empresa Tech-fix. Inicialmente, o projeto teve um protótipo criado no Figma com foco em conversão e responsividade. A página foi estruturada para apresentar os serviços da empresa de forma clara e atrair clientes."
   }
 ]
