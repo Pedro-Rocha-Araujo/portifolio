@@ -20,6 +20,8 @@ export default function CardProjeto({ projeto, fecharCard }: CardProjetoProps) {
         <img 
           src={projeto.src}
         />
+        <span><strong>Tecnologias usadas:</strong> {projeto.stack}</span>
+        <span><strong>Descrição:</strong> {projeto.descricao}</span>
         <button onClick={fecharCard} className="red">
           Fechar
         </button>

@@ -7,6 +7,9 @@ section.contatos div.icones{
     justify-content: center;
     gap: 1rem;
 }
+section.contatos div.icones a {
+    font-size: clamp(0.8rem, 4vw, 1.2rem) ;
+}
 div.icones i {
     color: #001542;
     transition: all 0.3s;

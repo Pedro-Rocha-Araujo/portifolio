@@ -34,7 +34,7 @@ export default function Tecnologias() {
         <div className="categorias" >
             <h3><i className="fa-solid fa-database"></i> Data-base</h3>
             <img 
-              src={`${basePath}/tecnologias/mysql.png`} 
+              src={`${basePath}/tecnologias/postgres.png`} 
               alt="Logo do MySQL" 
             />
             <img 
