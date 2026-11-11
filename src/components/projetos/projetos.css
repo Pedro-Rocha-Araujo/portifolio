@@ -8,14 +8,14 @@ section.projetos h2 {
     margin-bottom: 1.5rem;
 }
 div.projetos{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
+    max-width: 1480px;
+    align-items: center;
 }
 div.projeto{
     width: 100%;
-    max-width: 480px;
 }
 
 div.projetos img{
@@ -27,4 +27,19 @@ div.projetos img{
 div.projeto img:hover{
     transform: scale(1.007);
     cursor: pointer;
+}
+
+@media screen and (max-width: 1280px) {
+    div.projetos{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 761px) {
+    div.projetos{
+        grid-template-columns: 1fr;
+        max-width: 600px;
+    }
 }

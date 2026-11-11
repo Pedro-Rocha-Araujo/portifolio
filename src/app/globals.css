@@ -6,9 +6,21 @@
     padding: 0px;
     text-align: center;
     font-family: "Montserrat", Arial, sans-serif;
+    color: #1c1c1c;
+}
+
+body {
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 0.94)), 
+        url("/portifolio/background-body.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 header h1 {
+    color: #fff;
     font-family: "Caveat", cursive;
 }
 
@@ -33,7 +45,7 @@ section{
 }
 
 section p {
-    font-size: clamp(1rem, 4vw, 1.1rem);
+    font-size: clamp(0.95rem, 3vw, 1.1rem);
     line-height: 140%;
 }
 

@@ -1,9 +1,13 @@
 section.tecnologias img {
-    width: 25%;
+    width: 17%;
     max-width: 70px;
     aspect-ratio: 1/1;
     object-fit: cover;
     margin: 0.4rem;
+}
+
+section.tecnologias img.border-radius {
+    border-radius: 0.5rem;
 }
 
 div.tecnologias {
@@ -22,18 +26,11 @@ div.tecnologias h3 {
 }
 
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 920px){
   div.tecnologias {
     grid-template-columns: 1fr;
   }
   div.categorias {
     margin: 1rem 0;
-  }
-}
-
-
-@media screen and (max-width: 780px) {
-  section.tecnologias img {
-    max-width: 80px;
   }
 }

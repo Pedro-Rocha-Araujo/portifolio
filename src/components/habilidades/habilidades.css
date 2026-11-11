@@ -8,13 +8,13 @@ div.conteudo{
 }
 
 div.texto{
-    text-indent: 1.6rem;
-    width: 98%;
+    text-indent: 1.5rem;
+    width: 95%;
     max-width: 460px;
 }
 
-section.habilidades p{
-    text-align: justify;
+div.texto p{
+    text-align: left;
 }
 
 section.habilidades img{
@@ -31,5 +31,11 @@ section.habilidades img{
     }
     div.texto p{
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    div.texto p{
+        text-align: justify;
     }
 }

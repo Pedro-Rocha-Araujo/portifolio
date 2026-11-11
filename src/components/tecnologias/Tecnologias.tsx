@@ -9,7 +9,7 @@ export default function Tecnologias() {
 
         <div className="categorias">
             <h3><i className="fa-solid fa-display"></i> Front-end</h3>
-            <img 
+            <img className="border-radius" 
               src={`${basePath}/tecnologias/react.png`} 
               alt="Logo da Biblioteca React.js" 
             />
@@ -25,7 +25,7 @@ export default function Tecnologias() {
               src={`${basePath}/tecnologias/node.png`} 
               alt="Logo do Node.js" 
             />
-            <img 
+            <img className="border-radius"
               src={`${basePath}/tecnologias/typescript.png`} 
               alt="Logo do superset Typescript" 
             />
