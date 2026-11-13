@@ -1,6 +1,5 @@
 header{
-    background: linear-gradient(54deg,#001542ee 0%, #000b22ea 100%),
-    url("/portifolio/background-header.jpg");
+    background: linear-gradient(54deg,#001542 0%, #000b22 100%);
     color: #FFFFFF;  
     background-size: cover;
     background-position: center;

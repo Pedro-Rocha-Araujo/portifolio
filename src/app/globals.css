@@ -9,11 +9,11 @@
     color: #1c1c1c;
 }
 
-body {
+div.body {
     background: 
         linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), 
-        url("/portifolio/background-body.jpg");
-    
+        url("/portifolio/background-body.jpg")
+    ;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
