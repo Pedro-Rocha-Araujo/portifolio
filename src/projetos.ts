@@ -30,6 +30,15 @@ export const projetos = [
     "descricao": "Sistema Web Full-stack desenvolvido para atender os requisitos de agendamento e gerenciamento de barbearias. A plataforma oferece uma interface responsiva com controle de sessão e níveis de acesso distintos para barbeiros e clientes, otimizando assim o fluxo de atendimento e a organização de horários."
   },
   {
+    "name":"Biblioteca",
+    "icon":"fa-solid fa-book",
+    "href": "https://github.com/Pedro-Rocha-Araujo/biblioteca",
+    "src":`${basePath}/projetos/projeto-biblioteca.png`,
+    "alt":"Link para acessar o projeto de landing page desenvolvido para a empresa Tech-fix.",
+    "stack": "Next, Node, Express, TypeScript, PostgreSQL, Prisma, Zod",
+    "descricao": "Sistema web Full-stack desenvolvido para gerenciar o controle de acervos, empréstimos e usuários de uma biblioteca, eliminando a necessidade de protocolos físicos. A aplicação conta com uma interface responsiva, autenticação segura e criptografia de senhas, além de tipagem forte e validação de dados que garantem maior integridade e e escalabilidade ao projeto"
+  },
+  {
     "name":"Imobiliária",
     "icon":"fa-solid fa-house",
     "href": "https://github.com/Pedro-Rocha-Araujo/venda-de-imoveis",
@@ -55,14 +64,5 @@ export const projetos = [
     "alt":"Link para o projeto restaurante",
     "stack": "React, Node, Express, MongoDB",
     "descricao": "Sistema Web Full-stack criado para agilizar a operação de restaurantes. O projeto gira em torno principalmente do gerenciamento de cardápios e pedidos por meio de uma interface intuitiva e responsiva, priorizando a facilidade e agilidade no atendimento."
-  },
-  {
-    "name":"Tech-Fix",
-    "icon":"fa-solid fa-briefcase",
-    "href": "https://github.com/Pedro-Rocha-Araujo/techfix-landing-page",
-    "src":`${basePath}/projetos/landing-page-tech-fix.png`,
-    "alt":"Link para acessar o projeto de landing page desenvolvido para a empresa Tech-fix.",
-    "stack": "Figma, Next",
-    "descricao": "Landing page desenvolvida para a empresa Tech-fix. Inicialmente, o projeto teve um protótipo criado no Figma com foco em conversão e responsividade. A página foi estruturada para apresentar os serviços da empresa de forma clara e atrair clientes."
   }
 ]
