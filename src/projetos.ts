@@ -36,7 +36,7 @@ export const projetos = [
     "src":`${basePath}/projetos/projeto-biblioteca.png`,
     "alt":"Link para acessar o projeto de landing page desenvolvido para a empresa Tech-fix.",
     "stack": "Next, Node, Express, TypeScript, PostgreSQL, Prisma, Zod",
-    "descricao": "Sistema web Full-stack desenvolvido para gerenciar o controle de acervos, empréstimos e usuários de uma biblioteca, eliminando a necessidade de protocolos físicos. A aplicação conta com uma interface responsiva, autenticação segura e criptografia de senhas, além de tipagem forte e validação de dados que garantem maior integridade e e escalabilidade ao projeto"
+    "descricao": "Sistema web Full-stack desenvolvido para gerenciar o controle de acervos, empréstimos e usuários de uma biblioteca, eliminando a necessidade de protocolos físicos. A aplicação conta com uma interface responsiva, autenticação segura e criptografia de senhas, além de tipagem forte e validação de dados que garantem maior integridade e e escalabilidade ao projeto."
   },
   {
     "name":"Imobiliária",
