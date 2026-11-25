@@ -5,7 +5,7 @@ export default function Contatos() {
     <section className="contatos">
       <div>
         <h2><i className="fa-solid fa-phone"></i> Contatos</h2>
-        <p>Tem um projeto em mente? Entre em contato e vamos traze-lo para a realidade.</p>
+        <p>Tem uma ideia de projeto em mente? Entre em contato e vamos traze-la para a realidade.</p>
       </div>
       <div className="icones">
         <a target="_blank" href="https://wa.me/7988716812?text=Oi,%20vim%20pelo%20portfólio...">

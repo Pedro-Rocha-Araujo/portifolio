@@ -10,7 +10,7 @@ export default function Perfil() {
           alt="Minha foto de perfil" 
         />
         <div className="texto-maior">
-            <p>Me chamo Pedro, sou graduado em Gestão da Tecnologia da Informação e desenvolvedor web Full-stack.</p>
+            <p>Sou desenvolvedor Web graduado em Gestão da Tecnologia da Informação pelo Instituto Federal de Sergipe. Transformo ideias e necessidades em aplicações completas, modernas e funcionais.</p>
         </div>
     </section>
   )
