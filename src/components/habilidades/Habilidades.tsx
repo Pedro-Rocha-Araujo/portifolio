@@ -11,7 +11,7 @@ export default function Habilidades() {
               alt="imagem cartoon de uma pessoa programando" 
             />
             <div className="texto">
-                <p>Acredito que cada projeto possui suas próprias necessidades. Por isso, desenvolvo soluções personalizadas, unindo funcionalidade, usabilidade e design. Meu objetivo é criar experiências que comuniquem com o usuário final e atendam aos objetivos do projeto.</p>
+                <p>Cada projeto exige uma abordagem única. Por isso construo soluções personalizadas, unindo uma arquitetura sólida, usabilidade clara e um design responsivo. Meu objetivo é resolver problemas reais e entregar uma experiência clara para quem usa.</p>
             </div>
         </div>
     </section>
